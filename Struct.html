@@ -1,11 +1,92 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <title>Page Title</title>
-        </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .start-button {
+            display: inline-block;
+            padding: 20px 40px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            /* Define the gradient background */
+            background: linear-gradient(45deg, #583697, #eb6749);
+            color: #FFFFFF; /* White text */
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>GrowingEd</h1>
+    <nav>
+        <ul>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">Home</button>
+                    <div class="dropdown-content">
+                        <a href="#">About</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<main>
+    <section class="Images">
+        <img src="https://i.pinimg.com/736x/2a/23/73/2a23730fb0133701905f716dd21eead2.jpg" alt="Learning">
+    </section>
+
+
+            <!-- Add the Start Button here -->
+    <center><a href="#" class="start-button">Start</a></center>
+
+
+    <div class="container">
+        <section class="about">
+            <h2>About Us</h2>
+            <p><center><b>Welcome to GrowingEd</b><br><br>
+                We are dedicated to providing inclusive education for every individual
+                , regardless of background, age, or ability. Our drive is to create a 
+                space where learning knows no boundaries, and where knowledge is accessible to all.
+            <br><br>
+
+                <b>Our Vision</b>
+            <br><br>
+                We envision a world where education is a universal right, 
+                and where every individual has the opportunity to unlock their full potential. 
+                We believe that by fostering an inclusive learning environment, 
+                we can empower individuals to thrive academically, professionally, and personally.</center></p>
+        </section>
+
+        <section class="services">
+            <h2>Our Services</h2>
         
-    <body>
-        <h1>This is a Heading</h1>
-        <p>This is a paragraph.</p>
-    </body>
+            <ul>
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
+            </ul>
+        </section>
+        
+    </div>
+</main>
+
+<footer>
+    <p>&copy;2023 Your Website. All rights reserved.</p>
+</footer>
+
+</body>
 </html>
