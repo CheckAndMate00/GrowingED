@@ -1,0 +1,108 @@
+/* styles.css */
+
+header {
+    background-color: #5a3a66;
+    color: #fff;
+    padding: 10px;
+    position: center;
+    border: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(208, 208, 208);
+    margin: 0; /* Add this line to remove default body margin */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.about, .services {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #5a3a66;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .container {
+    display: flex;
+}
+
+.about, .services {
+    border: 2px solid #ccc;
+    padding: 10px;
+    width: 50%; /* Both sections will take up 50% of the container */
+    max-width: 600px;
+}
+
+.about {
+    margin-left: 20px;
+    margin-right: 85px;
+}
+
+.service {
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.Images {
+    margin: 0; 
+}
+
+.start-button {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    /* Define the gradient background */
+    background: linear-gradient(45deg, #583697, #eb6749);
+    color: #FFFFFF; /* White text */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
