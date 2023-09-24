@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GrowingED</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-    </style>
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
 </head>
+
+<link href="https://fonts.googleapis.com/css2?family=Gluten:wght@400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
 <body>
 
     <header>
-    
-            <section class="Images">
-                <img src="https://cdn.discordapp.com/attachments/745298873026740376/1155307890605834290/New_Project_1.png">
-            </section>
+        <section class="Images">
+            <img class="logo fade-in" src="https://cdn.discordapp.com/attachments/745298873026740376/1155344325148938350/New_Project_3.png">
+        </section>
         <h1>GrowingED</h1>
         <nav>
             <ul>
@@ -22,7 +25,7 @@
                     <div class="dropdown">
                         <button class="dropbtn">Home</button>
                         <div class="dropdown-content">
-                            <a href="#">About</a>
+                            <a href="#about-us">About</a>
                         </div>
                     </div>
                 </li>
@@ -31,23 +34,20 @@
                         <button class="dropbtn">Login</button>
                         <div class="dropdown-content">
                             <ol>
-                                <li><a href="#">Mentor</a></li>
-                                <li><a href="#">Student</a></li>
+                                <button id="login" href = "Login.html">Login</button>
+                                <button id="logout">Logout</button> 
                             </ol>   
                         </div>
                     </div>
                 </li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        
     </header>
 
     <center><a href="Interior.html" class="start-button">Start</a></center>
 
     <div class="container">
-        <section class="about">
+        <section class="about" id="about-us">
             <h2><center>About Us</center></h2>
             <p><center><b>Welcome to GrowingED</b><br><br>
                 We are dedicated to providing inclusive education for every individual
@@ -79,9 +79,10 @@
 </main>
 
 <footer>
-    <p>&copy;2023 Your Website. All rights reserved.</p>
+    <p>&copy;2023 GrowingED. All rights reserved.</p>
 </footer>
 
-<script src="your-script.js"></script>
+<script src="function.js"></script>
+<script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
 </body>
 </html>
