@@ -86,10 +86,12 @@ footer {
 
   .container {
     display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Adjust the height as needed */
 }
 
-.about,
-.services {
+.about, .services {
     border: 2px solid #ccc;
     padding: 10px;
     max-width: 600px;
@@ -97,12 +99,11 @@ footer {
     font-size: 20px;
     color: whitesmoke;
     background: rgba(27, 26, 26, 0.431);
-    margin: 0 auto; /* Center the sections horizontally */
+    margin-top: 0px;
 }
 
 .about {
-    margin-left: 20px;
-    margin-right: 110px;
+    margin-right: 20px; /* Add some spacing between sections if needed */
 }
 
 .service {
@@ -128,8 +129,8 @@ footer {
 
 .start-button {
     display: inline-block;
-    padding: 40px 80px;
-    font-size: 36px;
+    padding: 55px 120px;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -137,9 +138,35 @@ footer {
     background: linear-gradient(45deg, #583697, #eb6749);
     color: #FFFFFF; /* White text */
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     cursor: pointer;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
     margin-top: 60px;
 }
 
+.mentor-but, .mentee-but {
+    display: inline-block;
+    padding: 55px 120px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    /* Define the gradient background */
+    background: linear-gradient(45deg, #583697, #eb6749);
+    color: #FFFFFF; /* White text */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 220px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Adjust the height as needed */
+}
+
+.return-to {
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
