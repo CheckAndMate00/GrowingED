@@ -1,7 +1,7 @@
 // Initialize Auth0 Client
 const auth0 = new Auth0Client({
-    domain: 'your-auth0-domain.auth0.com',
-    client_id: 'your-client-id',
+    domain: 'dev-iaa7eg2fvndnmsd0.us.auth0.com',
+    client_id: '8e9RbXG91RdEd8QJCfdsXQBryh8rm4sU',
     redirect_uri: 'https://your-app-callback-url',
   });
 
@@ -48,7 +48,7 @@ async function handleAuthCallback() {
 
   var options = {
     method: 'PATCH',
-    url: 'https://{yourDomain}/api/v2/clients//{yourClientId}',
+    url: 'https://{dev-iaa7eg2fvndnmsd0.us.auth0.com}/api/v2/clients//{8e9RbXG91RdEd8QJCfdsXQBryh8rm4sU}',
     headers: {
       'content-type': 'application/json',
       authorization: 'Bearer API2_ACCESS_TOKEN',
@@ -67,7 +67,7 @@ async function handleAuthCallback() {
 
 var options = {
   method: 'POST',
-  url: 'https://{yourDomain}/api/v2/tickets/password-change',
+  url: 'https://{dev-iaa7eg2fvndnmsd0.us.auth0.com}/api/v2/tickets/password-change',
   headers: {
     'content-type': 'application/json',
     authorization: 'Bearer MGMT_API_ACCESS_TOKEN'
